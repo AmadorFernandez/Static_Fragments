@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.FragmentA">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtTexto"
+        android:layout_centerHorizontal="true"
+        android:textSize="12sp"
+        />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seek"
+        android:layout_below="@+id/edtTexto"
+        android:layout_centerHorizontal="true"
+        android:max="50"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seek"
+        android:layout_centerHorizontal="true"
+        android:text="Cambiar texto"
+        android:id="@+id/btn"
+        />
+
+</RelativeLayout>
